@@ -8,6 +8,10 @@ export default function Home() {
     <>
       <Head>
         <title>Muscara Software Solutions</title>
+        <meta
+          name="description"
+          content="We design and develop reliable and scalable services that deliver customizable and actionable data."
+        />
       </Head>
       <Hero />
       <Features />
