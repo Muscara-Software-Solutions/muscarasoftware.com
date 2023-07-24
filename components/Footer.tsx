@@ -8,17 +8,14 @@ export default function Footer({ children }: Props) {
     {
       title: "Legal",
       children: [
-        { name: "Terms", href: "/tos" },
-        { name: "Privacy Policy", href: "/privacy" },
-        { name: "License", href: "/license" }
+        { name: "Terms", href: "https://www.termsofusegenerator.net/live.php?token=P9oIDp2heEsiircTAun3CVh7tVnN1fsb" },
+        { name: "Privacy Policy", href: "https://www.freeprivacypolicy.com/live/14cb41aa-180f-43ea-aecb-d27cd9b6f0aa" },
       ]
     },
     {
       title: "Support",
       children: [
         { name: "Email", href: "mailto:support@muscarasoftware.com" },
-        { name: "Bugs", href: "/bugs" },
-        { name: "Ideas", href: "/ideas" },
         { name: "Uptime", href: "/uptime" }
       ]
     },
