@@ -22,7 +22,6 @@ export default function Footer({ children }: Props) {
     {
       title: "Social",
       children: [
-        { name: "Email", href: "mailto:support@muscarasoftware.com" },
         { name: "GitHub", href: "https://github.com/muscara-software-solutions" },
         { name: "Twitter", href: "https://twitter.com/muscarasoftware" },
         { name: "LinkedIn", href: "https://linkedin.com/company/muscara-software-solutions" }
