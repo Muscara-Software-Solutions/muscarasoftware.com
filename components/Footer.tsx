@@ -1,5 +1,9 @@
 const LINKS = [
   {
+    title: "Blog",
+    href: "https://blog.muscarasoftware.com"
+  },
+  {
     title: "Terms of Service",
     href: "https://www.termsofusegenerator.net/live.php?token=P9oIDp2heEsiircTAun3CVh7tVnN1fsb",
   },
