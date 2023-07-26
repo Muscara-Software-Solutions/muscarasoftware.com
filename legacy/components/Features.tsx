@@ -1,23 +1,23 @@
 import IconServer from "https://deno.land/x/tabler_icons_tsx@0.0.3/tsx/server.tsx";
-import IconDevice from "https://deno.land/x/tabler_icons_tsx@0.0.3/tsx/device-mobile.tsx";
+import IconDevice from "https://deno.land/x/tabler_icons_tsx@0.0.3/tsx/device-laptop.tsx";
 import IconAnalytics from "https://deno.land/x/tabler_icons_tsx@0.0.3/tsx/device-analytics.tsx";
 
 export default function Features() {
   const featureItems = [
     {
       icon: IconDevice,
-      title: "PWA & Native Development",
-      description: "We design and deploy applications for all platforms including iOS, Android, Windows, Linux, macOS, you name it, we can do it.",
+      title: "Website & SEO",
+      description: "",
     },
     {
       icon: IconAnalytics,
-      title: "Analytics",
-      description: "We provide an advanced suite of tools and services tailored for processing and analyzing substantial datasets.",
+      title: "Data Analysis & Security",
+      description: "",
     },
     {
       icon: IconServer,
-      title: "Hosting",
-      description: "We prioritize three critical aspects; scalability, consistency, and reliability. We ensure 100% uninterrupted service for all our clients.",
+      title: "Software Consulting & Testing",
+      description: "",
     },
   ];
 
