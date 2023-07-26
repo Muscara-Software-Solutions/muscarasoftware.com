@@ -82,7 +82,7 @@ function Features() {
         <div class="bg-green-200 rounded-full w-20 h-20">
         </div>
         <div class={desc}>
-          <b>Website Design & Search Engine Optimization</b> to increase your businesses digital presence.
+          <b>Website Design & Search Engine Optimization</b> to increase your business's digital presence.
         </div>
       </div>
 
