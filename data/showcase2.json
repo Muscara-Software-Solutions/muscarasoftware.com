@@ -1,0 +1,20 @@
+[
+  {
+    "title": "West Jessamine High School",
+    "link": "https://blog.muscarasoftware.com/wjhs",
+    "image": "https://bigteams-public-prod.s3.amazonaws.com/library/images/westjessaminehighschool_bigteams_15476/logos/15476/15476.png",
+    "description": "See how Muscara Software developed and implemented a full stack application to better manage students abusing hallway privilages at West Jessamine High School."
+  },
+  {
+    "title": "District Technology Office",
+    "link": "https://blog.muscarasoftware.com/dto",
+    "image": "https://www.jessamine.k12.ky.us/docs/_Thumb_/district/newsfeedpics/jcs_logo.png?id=41321&thumbwidth=500&fullwidth=500",
+    "description": "Muscara Software built data analysis tools tailored for longitudinal comparison of student's test data from year to year, improving efficiency by over 150%."
+  },
+  {
+    "title": "Woodford Nutrition C & J",
+    "link": "https://blog.muscarasoftware.com/rtn",
+    "image": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-6/325718560_1523823108120315_2737468266664486577_n.jpg?_nc_cat=104&cb=99be929b-3346023f&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=btZOw2ZE8jIAX8NzIf3&_nc_ht=scontent-iad3-1.xx&oh=00_AfBc8NW7L-HyyL8-l92W3vJ508I0JYuD1ibvyKU-JiOX7Q&oe=64C48240",
+    "description": "Jj V Muñoz needed a way to update his menu images to display on local advertisements. See how Muscara Software built a localized ad-engine and menu slideshow."
+  }
+]

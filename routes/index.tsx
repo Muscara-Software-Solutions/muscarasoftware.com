@@ -3,6 +3,7 @@ import { PageProps } from "$fresh/server.ts";
 import Footer from "../components/Footer.tsx";
 import Projects from "../components/Projects.tsx";
 import projects from "../data/showcase.json" assert { type: "json" };
+import projects2 from "../data/showcase2.json" assert { type: "json" };
 
 export default function MainPage(props: PageProps) {
   const ogImageUrl = "https://img.freepik.com/free-vector/code-typing-concept-illustration_114360-3581.jpg?size=626&ext=jpg&ga=GA1.1.155607791.1690326295&semt=ais"
@@ -24,6 +25,7 @@ export default function MainPage(props: PageProps) {
         <div class="flex-1">
           <Intro />
           <Showcase />
+          <Awards />
           <StartJourney />
         </div>
         <Footer />
@@ -115,6 +117,22 @@ function Showcase() {
       </h2>
       <p class="text-gray-600">
         Below is a selection of clients that we have proudly served.
+      </p>
+      <Projects items={projects2.slice(0, 3)} class="gap-8" />
+    </section>
+  );
+}
+
+function Awards() {
+  return (
+    <section style="padding-top: 5%;" class="max-w-screen-xl mx-auto space-y-16 px(4 sm:6 md:8) space-y-4">
+      <h2 id="showcase" class="text(4xl gray-600) font-bold mb-4">
+        <a href="#showcase" class="hover:underline">
+          Awards & Competitions
+        </a>
+      </h2>
+      <p class="text-gray-600">
+        Below is a list of awards we've received from competitions.
       </p>
       <Projects items={projects.slice(0, 3)} class="gap-8" />
     </section>
