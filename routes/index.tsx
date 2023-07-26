@@ -91,7 +91,6 @@ function Features() {
         </div>
         <div class={desc}>
           <b>Software Consulting & Testing</b> to increase your products reliability and scalability.
-          default.
         </div>
       </div>
 
