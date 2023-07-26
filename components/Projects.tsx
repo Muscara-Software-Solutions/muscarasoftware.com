@@ -24,9 +24,7 @@ export default function Projects(props: ProjectProps) {
               loading="lazy"
               src={project.image}
               alt={project.title}
-              width={800}
-              height={300}
-              style={{ aspectRatio: "1/1" }}
+              style={{ aspectRatio: "16/9" }}
               class="object-cover shadow-lg group-hover:(shadow-xl opacity-70) rounded-lg"
             />
           </a>
