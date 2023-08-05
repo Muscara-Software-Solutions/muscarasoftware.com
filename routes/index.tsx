@@ -25,7 +25,7 @@ export default function MainPage(props: PageProps) {
         <meta property="og:url" content="https://muscarasoftware.com" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Muscara Software Solutions" />
-        <meta property="og:image" content="https://muscarasoftware.com/seo.jpeg" />
+        <meta property="og:image" content="https://muscarasoftware.com/seo.png" />
         <meta property="og:description" content="Empowering businesses with data-driven insights and software." />
       </Head>
 
