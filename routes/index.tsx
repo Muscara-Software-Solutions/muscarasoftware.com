@@ -12,13 +12,21 @@ export default function MainPage(props: PageProps) {
     <>
       <Head>
         <title>Muscara Software Solutions</title>
+        <link rel="icon" href="/favicon.png" />
+        <meta name="name" itemProp="name" content="Muscara Software Solutions" />
         <meta name="description" content="Empowering businesses with data-driven insights and software." />
-        <meta property="og:title" content="Muscara Software Solutions" />
-        <meta property="og:description" content="Empowering businesses with data-driven insights and software." />
+        <meta name="google" content="notranslate" />
+        <meta name="author" content="Muscara Software Solutions, LLC" />
+        <meta name="keywords" content="software development, software, app development, app, software design, software engineer, app engineer, website designer, website development, muscara, muscara software" />
+        <meta name="reply-to" content="support@muscarasoftware.com" />
+        <meta name="email" content="support@muscarasoftware.com" />
+
+        <meta property="og:site_name" content="Muscara Software Solutions" />
+        <meta property="og:url" content="https://muscarasoftware.com" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content={props.url.href} />
-        <meta property="og:image" content={ogImageUrl} />
-        <meta name="view-transition" content="same-origin" />
+        <meta property="og:title" content="Muscara Software Solutions" />
+        <meta property="og:image" content="https://muscarasoftware.com/seo.jpeg" />
+        <meta property="og:description" content="Empowering businesses with data-driven insights and software." />
       </Head>
 
       <div class="flex flex-col min-h-screen">
